@@ -1,0 +1,90 @@
+h1{
+   color: rgb(0, 77, 77);
+   text-align: left  ;
+   text-decoration: underline;
+   font-family: 'Goblin One', cursive;
+
+}
+#titulo{
+   text-align: center;
+   font-size: 90px;
+   text-decoration: none;
+   font-family: 'Dancing Script', cursive;
+}
+body{
+   background-color: rgb(230, 255, 255);
+   font-family: sans-serif  ;
+   font-size: 20px;
+   
+}
+
+ol{
+   text-decoration: none;
+   color:black;
+}
+
+#FOTO{
+border-radius: 100px;
+display: inline-block;
+padding: 10px;
+background-color: teal;
+width: 500px
+
+
+}
+
+.botao{
+color: white;
+text-decoration: none;
+background-color: purple;
+padding: 10px 100px 10px 100px;
+text-align: right;
+border-radius: 15px;
+
+}
+
+.botao:hover{
+background-color: rgb(92, 0, 92);
+font-weight: 700;
+width: 90%;
+
+}
+
+.indice{
+color: black;
+text-decoration: none;
+font-size: 20px;
+font-family: 'Goblin one';
+}
+
+#pbotao{
+   text-align: center;
+}
+
+#Dindice li:hover{
+background-color:rgba(128, 128, 128, 0.336);
+width: 60%;
+}
+
+#Ddescricao{
+   width: 45%;
+   display: inline-block;
+   position: absolute;
+   padding: 110px 00px 10px 0px;
+   
+
+   
+}
+
+#Dfoto{
+   display: inline-block;
+   width: 530px ;
+   
+}
+
+#QuemSou{
+
+
+
+}
+
