@@ -1,3 +1,5 @@
+
+
 h1{
    color: rgb(0, 77, 77);
    text-align: left  ;
@@ -5,6 +7,11 @@ h1{
    font-family: 'Goblin One', cursive;
 
 }
+body h1:first-letter{
+   color: rgb(23, 63, 63);
+
+}
+
 #titulo{
    text-align: center;
    font-size: 90px;
@@ -12,11 +19,22 @@ h1{
    font-family: 'Dancing Script', cursive;
 }
 body{
-   background-color: rgb(230, 255, 255);
+   background-image:url(Imagens/Wallpaper/wallpaper3.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
    font-family: sans-serif  ;
-   font-size: 20px;
+   font-size: 25px;
+   font-weight: 500;
    
 }
+
+#Dbody{
+   background-color: rgba(139, 175, 192, 0.753);
+   padding: 50px;
+   margin: 150px 150px 150px 0px;
+   min-width: 900px;
+}
+
 
 ol{
    text-decoration: none;
@@ -41,6 +59,7 @@ padding: 10px 100px 10px 100px;
 text-align: right;
 border-radius: 15px;
 
+
 }
 
 .botao:hover{
@@ -62,8 +81,12 @@ font-family: 'Goblin one';
 }
 
 #Dindice li:hover{
-background-color:rgba(128, 128, 128, 0.336);
+background-color:rgba(255, 255, 255, 0.253);
 width: 60%;
+}
+
+#Dindice li a:active, #Dindice li:active{
+   color: white;
 }
 
 #Ddescricao{
@@ -82,7 +105,7 @@ width: 60%;
    
 }
 
-#QuemSou{
+#QuemSou {
 
 
 
