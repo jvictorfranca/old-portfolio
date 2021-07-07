@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jaogeon and Jaogons</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="game-container">
+      <div id="status-bars">
+        <div class="bars-character" id="character1-bar">
+          <img src="Images/CharacterIcons/character.png" alt="" />
+          
+          <div class="hp-mana-box">
+
+            <div class="hp-container">
+              <div class="hp"></div>
+              <p class="hp-text">HP: 100/100</p>
+            </div>
+          
+
+          <div class="mp-container">
+            <div class="mp"></div>
+            <p class="mp-text">MP: 100/100</p>
+            
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="bars-character" id="character2-bar">
+        <img src="Images/CharacterIcons/character.png" alt="" />
+        
+        <div class="hp-mana-box">
+
+          <div class="hp-container">
+            <div class="hp"></div>
+            <p class="hp-text">HP: 100/100</p>
+          </div>
+        
+
+        <div class="mp-container">
+          <div class="mp"></div>
+          <p class="mp-text">MP: 100/100</p>
+          
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="bar-enemy" id="enemy-bar">
+      <img src="Images/CharacterIcons/monster.png" alt="" />
+      
+      <div class="hp-mana-box">
+
+        <div class="hp-container">
+          <div class="hp"></div>
+          <p class="hp-text">HP: 100/100</p>
+        </div>
+      
+
+    </div>
+
+  </div>
+
+        </div>
+      </div>
+      <aside id="hand">
+        <div id="handcover"></div>
+        <div class="card turned">
+          <p>Card title</p>
+          <img src="Images/skills-icons/thunderbolt.png" alt="" />
+          <div>
+          <p class="card-action">turns</p>
+          <p class='card-mana-cost'>Mana:</p>
+          <p class="card-type">type:</p>
+            </div>
+            
+        </div>
+        <div class="card turned">
+          <p>Card title</p>
+          <img src="Images/skills-icons/thunderbolt.png" alt="" />
+          <div>
+          <p class="card-action">turns</p>
+          <p class='card-mana-cost'>Mana:</p>
+          <p class="card-type">type:</p>
+            </div>
+        </div>
+        <div class="card turned">
+          <p>Card title</p>
+          <img src="Images/skills-icons/thunderbolt.png" alt="" />
+          <div>
+          <p class="card-action">turns</p>
+          <p class='card-mana-cost'>Mana:</p>
+          <p class="card-type">type:</p>
+            </div>
+        </div>
+        <div id="skipTurnActions">
+          <div id='end-turn'>End Turn</div>
+        <div><div id='actionsDiv'>
+          <p>Actions</p>
+          <p id="actions">0</p>
+        </div>
+      </div>
+        
+      </aside>
+      <section id="game-screen">
+        <div id="character1" class="character">
+          <div class="effect"></div>
+        </div>
+        <div id="character2" class="character">
+          <div class="effect"></div>
+        </div>
+
+        <div id="enemy" class="monster">
+          <div class="effect"></div>
+        </div>
+
+      </section>
+    </main>
+    <article id="console">
+      <h2>Battle history</h2>
+    </article>
+    <script src="script.js"></script>
+  </body>
+</html>
